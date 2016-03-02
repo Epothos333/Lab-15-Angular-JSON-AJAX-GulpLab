@@ -9,4 +9,8 @@ app.config(function($routeProvider) {
 		controller: 'controllerTwo',
 		templateUrl: 'outputView.html'
 	});
+	$routeProvider.when('/view3', {
+		controller: 'controllerThree',
+		templateUrl: 'view3.html'
+	})
 })
