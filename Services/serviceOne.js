@@ -1,11 +1,7 @@
 var app = angular.module('madLibModule');
 
 app.factory('madLibStorage', function() {
-	var emptyArr = [['', '', ''],['', ''] ['', '']];
-	var wordInput;
-	var nouns;
-	var adjectives;
-	var verbs;
+	var wordInput, nouns, adjectives, verbs;
 
 
 	return {
