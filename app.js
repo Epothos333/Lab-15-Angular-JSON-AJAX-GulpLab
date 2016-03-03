@@ -2,15 +2,15 @@ var app = angular.module('madLibModule', ['ngRoute']);
 
 app.config(function($routeProvider) {
 	$routeProvider.when('/', {
-		templateUrl: 'inputView.html',
+		templateUrl: 'Views/inputView.html',
 		controller: 'controllerOne'
 	});
-	$routeProvider.when('/outputView', {
+	$routeProvider.when('/Views/outputView', {
 		controller: 'controllerTwo',
-		templateUrl: 'outputView.html'
+		templateUrl: 'Views/outputView.html'
 	});
-	$routeProvider.when('/view3', {
+	$routeProvider.when('/Views/view3', {
 		controller: 'controllerThree',
-		templateUrl: 'view3.html'
+		templateUrl: 'Views/view3.html'
 	})
 })
