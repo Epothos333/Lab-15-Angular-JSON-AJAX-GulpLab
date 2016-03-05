@@ -4,19 +4,16 @@
  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<script type="text/javascript" src="node_modules/angular-route/angular-route.js"></script>
 	<script type="text/javascript" src="app.js"></script>
-	<script type="text/javascript" src="Controllers/controllerOne.js"></script>
-	<script type="text/javascript" src="Controllers/controllerTwo.js"></script>
-	<script type="text/javascript" src="Controllers/controllerThree.js"></script>
-	<script type="text/javascript" src="Services/serviceOne.js"></script>
-	<script type="text/javascript" src="Services/serviceTwo.js"></script>
+<script type="text/javascript" src="Controllers/concat.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="Styles/style.css">
-
+	
 </head>
-<body ng-app="madLibModule">
+<body ng-app="madLibModule" class="container text-center">
 	<h1> Mad Lib Game </h1>
 	<a href="#/">Choose your <span>weapon</span> words!</a>
 	<a href="#/Views/outputView"> Results</a>
 	<a href="#/Views/view3"> Reddit's Awwww titles of the day</a>
-	<div ng-view=""></div>
+	<div ng-view="" class='text-center'></div>
 </body>
 </html>
