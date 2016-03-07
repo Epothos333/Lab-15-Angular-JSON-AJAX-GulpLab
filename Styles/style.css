@@ -1,8 +1,11 @@
 span {
   text-decoration: line-through;
 }
-a,
 input {
   display: block;
   margin: 5px 0;
+}
+.wrapMeUp {
+  box-shadow: 5px 5px 10px #808080;
+  border-radius: 15px;
 }
